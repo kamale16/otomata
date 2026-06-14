@@ -1,0 +1,63 @@
+{
+  "event": {
+    "nama": "TBO International Conference 2025",
+    "tema": "Automata, Language Theory & Modern Computing",
+    "tanggal": "15-17 Agustus 2025",
+    "tempat": "Gedung Serba Guna Universitas Nusantara",
+    "kota": "Semarang, Jawa Tengah"
+  },
+  "jadwal": [
+    {
+      "hari": "Hari 1 — Kamis, 15 Agustus",
+      "sesi": [
+        {"waktu": "08.00 - 09.00", "judul": "Registrasi & Check-in Peserta", "speaker": "-", "ruang": "Lobby Utama"},
+        {"waktu": "09.00 - 10.30", "judul": "Opening Ceremony & Keynote: The Future of Formal Languages", "speaker": "Prof. Dr. Andi Wirawan", "ruang": "Aula Utama"},
+        {"waktu": "10.30 - 12.00", "judul": "Workshop: Membangun DFA dari Nol", "speaker": "Dr. Siti Rahayu", "ruang": "Lab Komputer A"},
+        {"waktu": "13.00 - 14.30", "judul": "Sesi Paralel: Aplikasi NFA di Dunia Nyata", "speaker": "Dr. Budi Prakoso", "ruang": "Ruang Seminar B"},
+        {"waktu": "14.30 - 16.00", "judul": "Panel Discussion: Automata dalam AI Modern", "speaker": "Berbagai Narasumber", "ruang": "Aula Utama"}
+      ]
+    },
+    {
+      "hari": "Hari 2 — Jumat, 16 Agustus",
+      "sesi": [
+        {"waktu": "08.30 - 10.00", "judul": "Keynote: Context-Free Grammar di Kompiler Modern", "speaker": "Prof. Rizal Hakim", "ruang": "Aula Utama"},
+        {"waktu": "10.00 - 12.00", "judul": "Workshop: Membangun Parser CFG dengan Python", "speaker": "Dr. Maya Indah", "ruang": "Lab Komputer A"},
+        {"waktu": "13.00 - 15.00", "judul": "Presentasi Paper: Turing Machine & Komputabilitas", "speaker": "Berbagai Presenter", "ruang": "Ruang Seminar B"},
+        {"waktu": "15.00 - 16.30", "judul": "Hackathon Kick-off: Build Your Own Chatbot", "speaker": "Tim Panitia", "ruang": "Lab Komputer B"}
+      ]
+    },
+    {
+      "hari": "Hari 3 — Sabtu, 17 Agustus",
+      "sesi": [
+        {"waktu": "08.30 - 10.30", "judul": "Hackathon Presentasi & Demo", "speaker": "Semua Tim", "ruang": "Aula Utama"},
+        {"waktu": "10.30 - 12.00", "judul": "Keynote Penutup: Masa Depan Teori Komputasi", "speaker": "Prof. Dr. Andi Wirawan", "ruang": "Aula Utama"},
+        {"waktu": "13.00 - 15.00", "judul": "Awarding Ceremony & Closing", "speaker": "-", "ruang": "Aula Utama"}
+      ]
+    }
+  ],
+  "tiket": [
+    {"jenis": "Reguler", "harga": "Rp 150.000", "fasilitas": "Seminar kit, makan siang, sertifikat"},
+    {"jenis": "Mahasiswa", "harga": "Rp 75.000", "fasilitas": "Seminar kit, makan siang, sertifikat (butuh KTM)"},
+    {"jenis": "VIP", "harga": "Rp 350.000", "fasilitas": "Seminar kit, makan siang, dinner, akses workshop eksklusif, sertifikat"}
+  ],
+  "venue": {
+    "nama": "Gedung Serba Guna Universitas Nusantara",
+    "alamat": "Jl. Pendidikan No. 10, Tembalang, Semarang 50275",
+    "fasilitas": ["Parkir gratis", "WiFi berkecepatan tinggi", "AC di semua ruangan", "Mushola", "Kantin"],
+    "transportasi": "Dapat dijangkau dengan Trans Semarang Koridor 1 (turun Halte Universitas Nusantara)",
+    "maps": "https://maps.google.com/?q=Semarang"
+  },
+  "faq": [
+    {"q": "Apakah sertifikat akan diberikan?", "a": "Ya! Semua peserta yang hadir minimal 80% dari sesi akan mendapatkan e-sertifikat dalam 7 hari setelah acara."},
+    {"q": "Bagaimana jika tiket ingin dibatalkan?", "a": "Pembatalan bisa dilakukan maksimal H-7 sebelum acara dengan refund 80%. Hubungi panitia via email."},
+    {"q": "Apakah ada parking gratis?", "a": "Ya, tersedia parkir gratis untuk peserta di area kampus."},
+    {"q": "Apakah boleh membawa laptop?", "a": "Sangat dianjurkan membawa laptop, terutama untuk sesi workshop."},
+    {"q": "Berapa kapasitas maksimal peserta?", "a": "Acara ini dibatasi untuk 300 peserta. Segera daftar sebelum kuota penuh!"}
+  ],
+  "tiket_terdaftar": [
+    {"kode": "EVT-TBO-0001", "nama": "Ahmad Fauzi", "jenis": "VIP", "status": "Aktif"},
+    {"kode": "EVT-TBO-0002", "nama": "Siti Aminah", "jenis": "Mahasiswa", "status": "Aktif"},
+    {"kode": "EVT-ABC-1234", "nama": "Demo User", "jenis": "Reguler", "status": "Aktif"},
+    {"kode": "EVT-XYZ-9999", "nama": "Test Peserta", "jenis": "Mahasiswa", "status": "Dibatalkan"}
+  ]
+}
